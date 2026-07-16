@@ -1,0 +1,13 @@
+# Personal memory — encodes your viewing history and interests; stays local.
+# The engine ships domain-neutral: your domains, channels, and corrections are yours.
+profiles/channels/*.conf
+!profiles/channels/_example.conf
+profiles/domains/*.conf
+!profiles/domains/_example.conf
+memory/glossary/channels/*.sed
+memory/glossary/domains/*.sed
+memory/corrections.log
+tests/golden.local.tsv
+# Local overlays — promotions take effect immediately without touching tracked files
+# (clean git pull); upstreaming via PR is optional.
+memory/glossary/*.local.sed

@@ -1,0 +1,8 @@
+# Append-only correction event log — the actual memory/corrections.log is gitignored (it encodes
+# your viewing history). This example documents the format.
+# TSV: date\tevent\tvideo_id\tchannel_id\tscope\twrong\tright\tnote
+# event: logged (fixed at sync time) / promoted (entered glossary/profile) / rejected (won't promote)
+#        / context-only (never mechanize: wrong form is a common real word)
+2026-07-16	logged	dQw4w9WgXcQ	UCxxxxxxxxxxxxxxxxxxxxxx	domain:tech	Kubernets	Kubernetes	container orchestration platform
+2026-07-16	promoted	-	-	domain:tech	Kubernets	→ domains/tech.local.sed	seen in 2 videos, unambiguous, test added
+2026-07-16	context-only	-	-	-	sequel	SQL	"sequel" is a common real word; contextual fix only, forever

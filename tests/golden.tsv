@@ -1,0 +1,6 @@
+# Golden test pairs: sed-file-relative-path\tinput\texpected. Every rule promotion MUST add its
+# evidence sentence as a test (your real rules and their tests are local: tests/golden.local.tsv,
+# gitignored). Negative tests (things that must NOT change): input == expected.
+# The fixture lines below are a runner self-test so a fresh clone verifies the harness works.
+tests/fixtures/demo.sed	deploying Kubernets on bare metal	deploying Kubernetes on bare metal
+tests/fixtures/demo.sed	the Kubernetsy project	the Kubernetsy project
